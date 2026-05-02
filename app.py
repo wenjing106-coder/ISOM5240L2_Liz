@@ -11,8 +11,9 @@ def img2text(url):
     return text
 
 # Main part
-st.set_page_config(page_title="Your Image to Audio Story", page_icon="🦜")
-st.header("Turn Your Image to Audio Story")
+st.set_page_config(page_title="Your Image to Audio Story", page_icon="🤖")
+# 解释：🤖代表AI技术，适合展示这是一个AI驱动的应用
+st.header("ISOM5240: Turn Your Image to Audio Story")
 uploaded_file = st.file_uploader("Select an Image...")
 
 if uploaded_file is not None:
